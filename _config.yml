@@ -1,3 +1,8 @@
 title: My Modern Site
 description: Built with Jekyll and Tailwind CSS
-remote_theme: jeffreytse/jekyll-theme-pwa # A lightweight, modern theme
+
+#remote_theme: jeffreytse/jekyll-theme-pwa # A lightweight, modern theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
