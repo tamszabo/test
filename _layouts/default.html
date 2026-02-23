@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="bg-white shadow-sm p-4 mb-8">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <span class="font-bold text-xl text-indigo-600">{{ site.title }}</span>
+            <div class="space-x-4">
+                <a href="/" class="hover:text-indigo-500">Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4">
+        {{ content }}
+    </main>
+
+</body>
+</html>
