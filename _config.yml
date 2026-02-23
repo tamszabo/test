@@ -14,3 +14,4 @@ plugins:
   - jekyll-seo-tag
 
 permalink: /:title/
+# future: true
