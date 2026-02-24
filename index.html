@@ -29,40 +29,43 @@ title: Home
     <section id="projects" class="py-20 border-t border-slate-800">
     <div class="flex justify-between items-end mb-12">
         <div>
-            <h2 class="text-3xl font-black text-white italic">Featured Work</h2>
+            <h2 class="text-3xl font-black text-white italic text-indigo-500 uppercase">Featured Work</h2>
             <p class="text-slate-400 mt-2">Data visualizations and deep dives from ClutchStats.</p>
         </div>
-        <a href="https://www.youtube.com/clutchstats/" class="text-indigo-400 hover:text-indigo-300 font-bold text-sm uppercase tracking-widest transition">View All Projects →</a>
+        <a href="https://www.youtube.com/clutchstats/" class="text-indigo-400 hover:text-indigo-300 font-bold text-sm uppercase tracking-widest transition">View Channel →</a>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="group relative bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all duration-300">
-            <div class="aspect-video bg-slate-900 overflow-hidden">
-                <img src="{{ '/assets/project1.jpg' | relative_url }}" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80">
+        <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all">
+            <div class="aspect-video">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/mIoDbCBpBZI?si=zcVMxL7YJXWepLuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-white mb-2">ClutchStats</h3>
+                <p class="text-slate-400 text-sm mb-4">Leveraging my {{ site.title }} background to break down complex statistics for a global audience.</p>
+                <div class="flex gap-2">
+                    <span class="px-3 py-1 bg-red-500/10 text-red-400 text-xs font-mono rounded-full">YouTube</span>
+                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Data Viz</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://public.tableau.com/profile/szabotam" target="_blank" class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all">
+            <div class="aspect-video bg-indigo-900/20 flex items-center justify-center p-8 group-hover:bg-indigo-900/30 transition-colors">
+                <div class="text-center">
+                    <div class="text-4xl mb-2">📊</div>
+                    <span class="text-indigo-400 font-bold uppercase tracking-widest text-xs">Tableau Public Profile</span>
+                </div>
             </div>
             <div class="p-6">
                 <h3 class="text-xl font-bold text-white mb-2">SuperStore Dashboard</h3>
                 <p class="text-slate-400 text-sm mb-4">A comprehensive Tableau build focused on regional market performance and C-level reporting.</p>
                 <div class="flex gap-2">
-                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Tableau</span>
-                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">SQL</span>
+                    <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-mono rounded-full">Tableau</span>
+                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">C-Level Insights</span>
                 </div>
             </div>
-        </div>
-
-        <div class="group relative bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all duration-300">
-            <div class="aspect-video bg-slate-900 overflow-hidden">
-                <img src="{{ '/assets/project2.jpg' | relative_url }}" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80">
-            </div>
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">ClutchStats</h3>
-                <p class="text-slate-400 text-sm mb-4">NBA statistical content for a global audience.</p>
-                <div class="flex gap-2">
-                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Data Viz</span>
-                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">YouTube</span>
-                </div>
-            </div>
-        </div>
+        </a>
     </div>
     </section>
 
