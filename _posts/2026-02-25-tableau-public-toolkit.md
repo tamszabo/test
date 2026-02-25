@@ -34,16 +34,19 @@ To show you what this looks like in practice, I decided to step away from corpor
 
 Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success through a professional lens. I built this dashboard not just as a tribute, but as a challenge to myself: to apply the same high-level, executive-style clarity I use at Hyundai to the "Beautiful Game." It’s one thing to say Inter is successful; it’s another to see the data prove it.
 
-<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-[#0f172a]" style="min-height: 600px;"> 
-    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-    <tableau-viz id="tableauViz" 
-        src="https://public.tableau.com/views/MonthlyGoldPricesoverthelast20years/GoldPrices_1" 
-        device="desktop" 
-        hide-tabs 
-        toolbar="bottom" 
-        iframe-attr-loading="lazy"
-        style="width: 100%; height: 600px;">
-    </tableau-viz>   
+<div class="not-prose my-12 group">
+    <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="block overflow-hidden rounded-3xl border border-slate-700 shadow-2xl transition-all duration-500 hover:border-indigo-500 hover:shadow-indigo-500/20">  
+        <img src="{{ '/assets/images/2-inter.png' | relative_url }}" 
+             alt="Inter Milan - Serie A Results" 
+             class="w-full h-auto transition-transform duration-700 group-hover:scale-105">
+        <div class="bg-slate-800/80 backdrop-blur-md p-4 flex justify-between items-center border-t border-slate-700">
+            <div>
+                <p class="text-white font-bold">Inter Milan - Serie A Results</p>
+                <p class="text-slate-400 text-sm italic">Click to open the interactive version on Tableau Public</p>
+            </div>
+            <span class="text-indigo-400 font-black text-2xl group-hover:translate-x-2 transition-transform">→</span>
+        </div>
+    </a>
 </div>
 
 ## Learn from the Masters
