@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Hello World: My First Post"
 date: 2026-02-11
 categories: data-analytics
@@ -9,7 +9,7 @@ categories: data-analytics
 
 Hi, I’m Tamas.
 
-I’ve spent the last 7+ years working in data analytics — building dashboards, writing SQL, defining KPIs, and sitting in countless meetings where the number one request was:
+I’ve spent the last 8+ years working in data analytics — building dashboards, writing SQL, defining KPIs, and sitting in countless meetings where the number one request was:
 “How can I export this to Excel?”
 
 ## What I Actually Do
@@ -79,3 +79,4 @@ If you're interested in:
 
 
 You’re in the right place.
+
