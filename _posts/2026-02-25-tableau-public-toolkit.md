@@ -34,38 +34,16 @@ To show you what this looks like in practice, I decided to step away from corpor
 
 Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success through a professional lens. I built this dashboard not just as a tribute, but as a challenge to myself: to apply the same high-level, executive-style clarity I use at Hyundai to the "Beautiful Game." It’s one thing to say Inter is successful; it’s another to see the data prove it.
 
-<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-slate-900">
-    <div style="width: 100%; max-width: 1400px; margin: 0 auto;">
-        <div style="position: relative; padding-bottom: 57%; height: 0; overflow: hidden;">
-            <div class='tableauPlaceholder' id='viz_blog_responsive' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;'>
-                <object class='tableauViz' style='display:none;'>
-                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                    <param name='embed_code_version' value='3' /> 
-                    <param name='site_root' value='' />
-                    <param name='name' value='InterSeasonStats/Inter' /> <param name='tabs' value='no' />
-                    <param name='toolbar' value='yes' />
-                    <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
-                    <param name='display_spinner' value='yes' />
-                    <param name='display_overlay' value='yes' />
-                    <param name='display_count' value='yes' />
-                    <param name='language' value='en-US' />
-                    <param name='size' value='width=1400,height=800' />
-                </object>
-            </div>
-        </div>
-    </div>
+<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-slate-900" style="width: 100%; max-width: 1400px; margin: 0 auto;">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+    <tableau-viz id="tableauViz" 
+        src="https://public.tableau.com/views/InterSeasonStats/Inter" 
+        device="desktop" 
+        hide-tabs 
+        toolbar="bottom" 
+        style="width: 100%; height: 800px;">
+    </tableau-viz>
 </div>
-
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz_blog_responsive');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='100%';
-    vizElement.style.height='100%';
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
 
 ## Learn from the Masters
 
