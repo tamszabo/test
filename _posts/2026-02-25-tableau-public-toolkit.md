@@ -42,7 +42,7 @@ Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> 
                     <param name='site_root' value='' />
-                    <param name='name' value='InterSeasonStats/Inter#1' /> <param name='tabs' value='no' />
+                    <param name='name' value='InterSeasonStats/Inter' /> <param name='tabs' value='no' />
                     <param name='toolbar' value='yes' />
                     <param name='animate_transition' value='yes' />
                     <param name='display_static_image' value='yes' />
