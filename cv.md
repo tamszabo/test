@@ -13,7 +13,6 @@ permalink: /cv/
 Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
 
 ## Experience
-
 **Senior Data Analyst** - 10/2023 to 07/2025
 Hyundai Motor Europe | Frankfurt am Main, Germany
 - Executive Insights: Engineered a comprehensive C-suite sales funnel report by creating a unified data model from SAP, Siebel, and GA4 datasets.
@@ -39,19 +38,17 @@ Raiffeisen Bank | Budapest, Hungary
 - Process Automation: Developed an automated Excel-based verification tool for the fraud team to validate customer IDs, significantly reducing manual verification errors and improving departmental efficiency.
 
 ## Education
-
 **BSc in Mathematics** – 2016
 Eötvös Loránd University | Budapest, Hungary
 
 ## Certificates
-
 - **Tableau Desktop Specialist** (2023)
 
 ## Skills
-
 - **Data Visualization**: Tableau (Certified Specialist), Power BI, QlikSense
 - **Data Analysis**: SQL, Advanced Excel, KPI Framework Development
 - **Soft Skills**: Stakeholder Management, Mentoring, Cross-functional Collaboration, Workshop Facilitation
 - **Languages**: Hungarian (Native), English (Fluent - C1), German (Basic - A2)
+
 
 
