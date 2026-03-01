@@ -2,8 +2,8 @@
 layout: post
 title: "Hello World: Welcome to my new blog!"
 date: 2026-02-11
-image: /assets/images/1-hello-header.jpg
-categories: data-analytics
+image: /assets/images/1-hello-header.png
+categories: data-analysis
 ---
 
 # Welcome to my new blog!
@@ -80,6 +80,7 @@ If you're interested in:
 
 
 You’re in the right place.
+
 
 
 
