@@ -5,7 +5,8 @@ image: "/assets/images/3-figma-blueprint-header.png"
 categories: [Toolkit, DataViz, Figma]
 ---
 
-# 🎨 The next analyst toolkit is Figma.
+# 🎨 The Analyst’s Toolkit II. 
+## Figma
 
 Most data analysts start with a blank canvas in Tableau or Power BI. They drag a sheet, fight with containers, and hope a professional layout emerges. 
 
