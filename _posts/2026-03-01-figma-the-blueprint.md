@@ -11,7 +11,7 @@ Most data analysts start with a blank canvas in Tableau or Power BI. They drag a
 
 **The result?** Static, "Excel-looking" reports that are hard to navigate and uninspiring to look at. They are functional, but they don't always inspire confidence or delight the user.
 
-My journey into design-first analytics started during my time at [Starschema]([https://starschema.com/](https://www.hcltech.com/de-de/geo-presence/hungary)), where I learned the foundational principles of dashboard UI from my former team lead, [Tamas Varga](https://www.linkedin.com/in/tam%C3%A1s-varga-b0b5b286/) (shout out to him!). That experience shifted my perspective: A dashboard isn't just a report; it’s a product.
+My journey into design-first analytics started during my time at **Starschema**, where I learned the foundational principles of dashboard UI from my former team lead, [Tamas Varga](https://www.linkedin.com/in/tam%C3%A1s-varga-b0b5b286/) (shout out to him!). That experience shifted my perspective: A dashboard isn't just a report; it’s a product.
 
 ---
 
@@ -46,4 +46,4 @@ Showing a stakeholder a modern, sexy product before launch is vital, but showing
 
 By using Figma as my blueprint, I bridge the gap between **Data Analysis** and **Product Design**. It allows me to deliver solutions that aren't just accurate, but are also a joy to use.
 
-**Ready to build something "Sexy" together?** [Let's talk about your next project]({{ '/cv/' | relative_url }}).
+**Ready to build something together?**.
