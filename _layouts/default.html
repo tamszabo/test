@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    {% if page.url == "/" or page.url == "/index.html" %}
+        <title>Tamas Szabo | Data Analyst & Consultant</title>
+    {% else %}
+        <title>{{ page.title }} | Tamas Szabo</title>
+    {% endif %}
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -55,6 +60,7 @@
 
 </body>
 </html>
+
 
 
 
