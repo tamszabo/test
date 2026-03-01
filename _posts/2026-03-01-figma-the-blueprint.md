@@ -23,7 +23,7 @@ I don’t wait for a finished design to look at the data, and I don’t wait for
 1.  **In Tableau:** I dive into the raw data. I build "ugly" exploratory sheets to see what the distributions look like, which charts reveal the insights best, and where the "story" lies.
 2.  **In [Figma](https://www.figma.com/):** Simultaneously, I start sketching the layout. Knowing what charts are possible allows me to design containers that fit the data perfectly rather than trying to squeeze a complex scatterplot into a tiny box later.
 
-This back-and-forth ensures that the final design is both **aesthetically sexy** and **technically feasible**.
+This back-and-forth ensures that the final design is both **aesthetically pleasing* and **technically feasible**.
 
 ---
 
@@ -39,7 +39,7 @@ In Figma, I define a strict **Style Tile** and layout before building:
 * **Pixel-Perfect Alignment:** This is my "secret sauce." I don't use loose grids; I use exact, **pixel-perfect container positions**. Every element has a precise x,y coordinate and width/height. At the end of the day, you have to have a certain level of "OCD" for alignment to truly excel at this job. It's the difference between a report and a professional interface.
 
 ### 3. Stakeholder Buy-in: The "Real Data" Hook
-Showing a stakeholder a modern, sexy product before launch is vital, but showing them **their actual sales data** in that product is the game-changer. When they see their current numbers beautifully visualized, the conversation shifts from "Does this work?" to "When can we have this?". It makes the buy-in process effortless.
+Showing a stakeholder a modern, polished product before launch is vital, but showing them **their actual sales data** in that product is the game-changer. When they see their current numbers beautifully visualized, the conversation shifts from "Does this work?" to "When can we have this?". It makes the buy-in process effortless.
 
 ---
 
