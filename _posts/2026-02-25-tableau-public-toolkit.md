@@ -3,7 +3,7 @@ layout: post
 title: "The Analyst’s Toolkit: Why Tableau Public is Your Ultimate Stage"
 date: 2026-02-25
 image: /assets/images/2-tableau-toolkit.png
-categories: [Toolkit, DataViz, Tableau]
+categories: [Toolkit, DataViz, Tableau, Data Analysis]
 ---
 
 # 📊 The Analyst’s Toolkit I.
