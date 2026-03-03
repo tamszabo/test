@@ -50,87 +50,56 @@ I’ve curated a collection of my favorite consultancy-ready palettes—from *Bl
 **Click below to expand the code, then copy it into your Preferences file:**
 
 <details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 mt-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex items-center gap-2">
-    <span class="transition-transform duration-300">▶</span> Click to reveal Tableau XML Code
+<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+    <span>▶ Click to reveal Tableau XML Code</span>
+    <button onclick="copyToClipboard()" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg transition-all">Copy Code</button>
 </summary>
 
-<div class="mt-4">
-<p class="text-xs text-slate-500 mb-2 italic">Copy the code below and paste it between the &lt;preferences&gt; tags in your Preferences.tps file.</p>
+<div class="mt-4 overflow-x-auto">
+<pre id="tableauCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">
+&lt;?xml version='1.0'?&gt;
+&lt;workbook&gt;
+  &lt;preferences&gt;
 
-```xml
-<?xml version='1.0'?>
-<workbook>
-  <preferences>
+    &lt;color-palette name="Sunny Beach Day" type="regular"&gt;
+      &lt;color&gt;#264653&lt;/color&gt;
+      &lt;color&gt;#2A9D8F&lt;/color&gt;
+      &lt;color&gt;#E9C46A&lt;/color&gt;
+      &lt;color&gt;#F4A261&lt;/color&gt;
+      &lt;color&gt;#E76F51&lt;/color&gt;
+    &lt;/color-palette&gt;
 
-    <color-palette name="Sunny Beach Day" type="regular">
-      <color>#264653</color>
-      <color>#2A9D8F</color>
-      <color>#E9C46A</color>
-      <color>#F4A261</color>
-      <color>#E76F51</color>
-    </color-palette>
+    &lt;color-palette name="Black &amp; Gold Elegance" type="regular"&gt;
+      &lt;color&gt;#000000&lt;/color&gt;
+      &lt;color&gt;#14213D&lt;/color&gt;
+      &lt;color&gt;#FCA311&lt;/color&gt;
+      &lt;color&gt;#E5E5E5&lt;/color&gt;
+      &lt;color&gt;#FFFFFF&lt;/color&gt;
+    &lt;/color-palette&gt;
 
-    <color-palette name="Olive Garden Feast" type="regular">
-      <color>#606C38</color>
-      <color>#283618</color>
-      <color>#FEFAE0</color>
-      <color>#DDA15E</color>
-      <color>#BC6C25</color>
-    </color-palette>
+    &lt;color-palette name="Ocean Sunset" type="regular"&gt;
+      &lt;color&gt;#001219&lt;/color&gt;
+      &lt;color&gt;#005F73&lt;/color&gt;
+      &lt;color&gt;#0A9396&lt;/color&gt;
+      &lt;color&gt;#94D2BD&lt;/color&gt;
+      &lt;color&gt;#E9D8A6&lt;/color&gt;
+      &lt;color&gt;#EE9B00&lt;/color&gt;
+      &lt;color&gt;#CA6702&lt;/color&gt;
+      &lt;color&gt;#BB3E03&lt;/color&gt;
+      &lt;color&gt;#AE2012&lt;/color&gt;
+      &lt;color&gt;#9B2226&lt;/color&gt;
+    &lt;/color-palette&gt;
 
-    <color-palette name="Summer Ocean Breeze" type="regular">
-      <color>#E63946</color>
-      <color>#F1FAEE</color>
-      <color>#A8DADC</color>
-      <color>#457B9D</color>
-      <color>#1D3557</color>
-    </color-palette>
+  &lt;/preferences&gt;
+&lt;/workbook&gt;</pre>
+</div>
+</details>
 
-    <color-palette name="Refreshing Summer Fun" type="regular">
-      <color>#8ecae6</color>
-      <color>#219ebc</color>
-      <color>#023047</color>
-      <color>#ffb703</color>
-      <color>#fb8500</color>
-    </color-palette>
-
-    <color-palette name="Soft Lavender" type="regular">
-      <color>#22223B</color>
-      <color>#4A4E69</color>
-      <color>#9A8C98</color>
-      <color>#C9ADA7</color>
-      <color>#F2E9E4</color>
-    </color-palette>
-
-    <color-palette name="Black & Gold Elegance" type="regular">
-      <color>#000000</color>
-      <color>#14213D</color>
-      <color>#FCA311</color>
-      <color>#E5E5E5</color>
-      <color>#FFFFFF</color>
-    </color-palette>
-
-    <color-palette name="Ocean Sunset" type="regular">
-      <color>#001219</color>
-      <color>#005F73</color>
-      <color>#0A9396</color>
-      <color>#94D2BD</color>
-      <color>#E9D8A6</color>
-      <color>#EE9B00</color>
-      <color>#CA6702</color>
-      <color>#BB3E03</color>
-      <color>#AE2012</color>
-      <color>#9B2226</color>
-    </color-palette>
-
-    <color-palette name="LGBT" type="regular">
-      <color>#E40303</color>
-      <color>#FF8C00</color>
-      <color>#FFED00</color>
-      <color>#008026</color>
-      <color>#24408E</color>
-      <color>#732982</color>
-    </color-palette>
-
-  </preferences>
-</workbook>
+<script>
+function copyToClipboard() {
+  const code = document.getElementById('tableauCode').innerText;
+  navigator.clipboard.writeText(code).then(() => {
+    alert('Tableau XML copied to clipboard!');
+  });
+}
+</script>
