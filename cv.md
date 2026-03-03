@@ -1,51 +1,84 @@
 ---
-layout: cv
+layout: default
 title: Resume
 permalink: /cv/
 ---
 
-# Tamas Szabo
-**Senior Data Analyst** | Frankfurt am Main, Germany
+<div class="flex justify-between items-center mb-8 pb-4 border-b border-slate-800">
+    <h1 class="text-3xl font-black text-white uppercase tracking-tighter">
+        Curriculum <span class="text-indigo-500">Vitae</span>
+    </h1>
+    <button onclick="window.print()" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition">
+        Print to PDF 📄
+    </button>
+</div>
 
----
+<section class="mb-12">
+    <h2 class="text-xl font-bold text-white mb-4">Tamas Szabo</h2>
+    <p class="text-slate-400 leading-relaxed italic border-l-2 border-indigo-500 pl-4">
+        Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights.
+    </p>
+</section>
 
-## Professional Profile
-Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
+<section class="space-y-10">
+    <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-6">Professional Experience</h2>
+    <div class="relative pl-12">
+        <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1 border border-slate-700">
+            <img src="{{ '/assets/images/hyundai-logo.png' | relative_url }}" alt="Hyundai" class="w-full h-full object-contain">
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+            <h3 class="text-lg font-bold text-white">Hyundai Motor Europe</h3>
+            <span class="text-sm font-mono text-slate-500">10/2023 — 07/2025</span>
+        </div>
+        <p class="text-indigo-400 text-sm font-semibold mb-3">Senior Data Analyst | Frankfurt am Main</p>
+        <ul class="list-disc list-outside ml-4 space-y-1 text-slate-400 text-sm">
+            <li><strong>Executive Insights:</strong> Engineered a comprehensive C-suite sales funnel report from SAP, Siebel, and GA4 datasets.</li>
+            <li><strong>Infrastructure:</strong> Orchestrated a Tableau Server migration resulting in significant speed increases.</li>
+            <li><strong>Leadership:</strong> Launched a Tableau mentorship program, increasing regional data literacy.</li>
+        </ul>
+    </div>
+    <div class="relative pl-12">
+        <div class="absolute left-0 top-1 w-10 h-10 bg-slate-800 rounded-lg p-1 border border-slate-700">
+            <img src="{{ '/assets/images/starschema-logo.png' | relative_url }}" alt="Starschema" class="w-full h-full object-contain">
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+            <h3 class="text-lg font-bold text-white">Starschema</h3>
+            <span class="text-sm font-mono text-slate-500">12/2019 — 09/2023</span>
+        </div>
+        <p class="text-indigo-400 text-sm font-semibold mb-3">Data Analyst | Budapest, Hungary</p>
+        <ul class="list-disc list-outside ml-4 space-y-1 text-slate-400 text-sm">
+            <li>Consulted for global giants including <strong>Apple, GE, and BlackRock</strong>.</li>
+            <li><strong>Strategic Win:</strong> Led a sports analytics POC that secured the <strong>Los Angeles Rams</strong> as a client.</li>
+            <li>Implemented global KPI frameworks ensuring 100% transparency in international reporting.</li>
+        </ul>
+    </div>
+    <div class="relative pl-12">
+        <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1 border border-slate-700">
+            <img src="{{ '/assets/images/intrum-logo.png' | relative_url }}" alt="Intrum" class="w-full h-full object-contain">
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+            <h3 class="text-lg font-bold text-white">Intrum</h3>
+            <span class="text-sm font-mono text-slate-500">07/2017 — 11/2019</span>
+        </div>
+        <p class="text-indigo-400 text-sm font-semibold mb-3">Business Intelligence Analyst | Budapest, Hungary</p>
+        <ul class="list-disc list-outside ml-4 space-y-1 text-slate-400 text-sm">
+            <li>Deep-dive cost analysis leading to the strategic discontinuation of a major business line.</li>
+            <li>Mentored C-suite stakeholders on BI best practices to drive data-driven decision-making.</li>
+        </ul>
+    </div>
+</section>
 
-## Experience
-**Senior Data Analyst** - 10/2023 to 07/2025
-Hyundai Motor Europe | Frankfurt am Main, Germany
-- Executive Insights: Engineered a comprehensive C-suite sales funnel report by creating a unified data model from SAP, Siebel, and GA4 datasets.
-- Infrastructure Optimization: Orchestrated and executed a Tableau Server migration and upgrade, resulting in a significant increase in processing speeds and dashboard responsiveness.
-- Data Literacy Leadership: Launched and led a Tableau mentorship program across the organization, successfully increasing data literacy and self-service analytics capabilities for regional teams.
-- Stakeholder Management: Partnered with C-level leaders to reduce time-to-insight for regional performance reviews by 30%.
-
-**Data Analyst**  - 12/2019 to 09/2023
-Starschema | Budapest, Hungary
-- Fortune 500 Consultancy: Acted as a consultant for global giants including Apple, GE, and BlackRock, performing rapid environment assessments and delivering high-impact business insights under tight deadlines.
-- Strategic Sales Support: Served as the lead designer for a high-stakes sports analytics proof of concept (POC) for NFL and Soccer teams; the initiative directly resulted in securing the Los Angeles Rams as a marquee client.
-- KPI Standardization: Defined and implemented global KPI frameworks, ensuring 100% transparency in management metrics across international teams.
-- Workshop Facilitation: Educated non-technical stakeholders through targeted workshops, improving data understanding and reporting quality.
-
-**Business Intelligence Analyst** - 07/2017 to 11/2019
-Intrum |  Budapest, Hungary
-- Strategic Business Pivot: Collaborated with the controlling team to conduct a deep-dive cost analysis that identified non-profitable operations, directly leading to the strategic discontinuation of a major business line.
-- Executive Education: Developed a suite of executive-level reports and mentored C-suite stakeholders on business intelligence best practices to drive data-driven decision-making.
-- Infrastructure Growth: Contributed to the architecture of a centralized analytics infrastructure for faster regional data access.
-
-**Fraud Risk Analyst Trainee** - 01/2017 to 06/2017
-Raiffeisen Bank | Budapest, Hungary
-- Process Automation: Developed an automated Excel-based verification tool for the fraud team to validate customer IDs, significantly reducing manual verification errors and improving departmental efficiency.
-
-## Education
-**BSc in Mathematics** – 2016
-Eötvös Loránd University | Budapest, Hungary
-
-## Certificates
-- **Tableau Desktop Specialist** (2023)
-
-## Skills
-- **Data Visualization**: Tableau (Certified Specialist), Power BI, QlikSense
-- **Data Analysis**: SQL, Advanced Excel, KPI Framework Development
-- **Soft Skills**: Stakeholder Management, Mentoring, Cross-functional Collaboration, Workshop Facilitation
-- **Languages**: Hungarian (Native), English (Fluent - C1), German (Basic - A2)
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 pt-10 border-t border-slate-800">
+    <section>
+        <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-4">Education</h2>
+        <h3 class="text-white font-bold">BSc in Mathematics</h3>
+        <p class="text-slate-500 text-sm italic">Eötvös Loránd University | 2016</p>
+    </section>
+    <section>
+        <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-4">Certificates</h2>
+        <div class="flex items-center gap-3">
+            <img src="{{ '/assets/images/tableau-specialist.png' | relative_url }}" class="w-8 h-8 opacity-80" alt="Tableau">
+            <p class="text-white font-bold text-sm">Tableau Desktop Specialist (2023)</p>
+        </div>
+    </section>
+</div>
