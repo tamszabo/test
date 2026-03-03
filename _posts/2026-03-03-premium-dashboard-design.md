@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beyond Reports: Crafting Premium, Accessible Data Products"
+title: "Coolors: Crafting Premium, Accessible Data Products"
 image: "/assets/images/4-coolors-palette.png"
 categories: [Toolkit, DataViz, Coolors, Data Analysis]
 ---
