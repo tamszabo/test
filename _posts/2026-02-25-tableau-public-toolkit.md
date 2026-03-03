@@ -7,7 +7,6 @@ categories: [Toolkit, DataViz, Tableau, Data Analysis]
 ---
 
 # 📊 The Analyst’s Toolkit I.
-## Tableau Public
 
 Kicking off my Analyst's Toolkit series, I have to start with my first "best friend": **[Tableau Public](https://public.tableau.com/en-us/s/download)**. 
 
