@@ -3,27 +3,14 @@ layout: default
 title: Resume
 permalink: /cv/
 ---
-<div class="flex justify-between items-center mb-10 pb-4 border-b border-slate-800">
-    <h1 class="text-3xl font-black text-white uppercase tracking-tighter">
-        Tamas <span class="text-indigo-500">Szabo</span>
-    </h1>
-    <button onclick="window.print()" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition border border-slate-800 px-4 py-2 rounded-lg">
-        Print to PDF 📄
-    </button>
-</div>
 
-<section class="mb-12">
-    <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
-        <h2 class="text-xl font-bold text-white">Senior Data Analyst</h2>
-        <div class="flex gap-4 text-xs text-slate-500 font-mono">
-            <span>📍 Frankfurt, DE</span>
-            <span>✉️ prostaw@gmail.com</span>
-        </div>
-    </div>
-    <p class="text-slate-400 leading-relaxed italic border-l-2 border-indigo-500 pl-4">
-        Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
-    </p>
-</section>
+# Tamas Szabo
+**Senior Data Analyst** | Frankfurt am Main, Germany
+
+---
+
+## Professional Profile
+Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
 
 ## Experience
 **Senior Data Analyst** - 10/2023 to 07/2025
