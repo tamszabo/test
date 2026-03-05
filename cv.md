@@ -6,37 +6,44 @@ permalink: /cv/
 
 <style>
 @media print {
-    /* 1. Hide the Web UI elements */
-    nav, footer, button {
+    /* 1. Remove Web UI elements */
+    nav, footer, button, .border-b {
         display: none !important;
     }
 
-    /* 2. Force the Dark Background */
-    body, html, .max-w-4xl, main {
-        background-color: #0f172a !important;
-        -webkit-print-color-adjust: exact !important; /* Chrome/Safari */
-        print-color-adjust: exact !important;         /* Firefox */
-        color: #cbd5e1 !important;                   /* Slate-300 */
+    /* 2. Define the Paper Margins (The "Executive" Border) */
+    @page {
+        margin: 2cm; /* This creates the physical margin on the paper */
     }
 
-    /* 3. Ensure Headings and Logos stay vibrant */
+    /* 3. Force Dark Background and Fix Spacing */
+    body, html, main {
+        background-color: #0f172a !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color: #cbd5e1 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 4. Ensure the Content doesn't touch the edge */
+    .max-w-5xl {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* 5. Typography and Highlighting */
     h1, h2, h3 {
         color: #ffffff !important;
     }
     .text-indigo-500, .text-indigo-400, .text-indigo-300 {
-        color: #818cf8 !important; /* Indigo-400 */
+        color: #818cf8 !important;
     }
-    
-    /* 4. Layout adjustments for paper */
+
+    /* 6. Avoid "Hanging" jobs at the bottom of the page */
     .relative {
-        page-break-inside: avoid; /* Prevents splitting a job across two pages */
-        margin-bottom: 2rem;
-    }
-    
-    main {
-        padding: 0 !important;
-        margin: 0 !important;
-        max-width: 100% !important;
+        page-break-inside: avoid !important;
+        margin-bottom: 2.5rem !important;
     }
 }
 </style>
@@ -164,6 +171,7 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
 
 
