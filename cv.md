@@ -28,7 +28,6 @@ permalink: /cv/
 
 <section class="space-y-12">
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-8">Professional Experience</h2>
-
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
             <img src="{{ '/assets/images/hyundai-logo.png' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
@@ -45,7 +44,6 @@ permalink: /cv/
             <li><strong>Stakeholder Management:</strong> Partnered with C-level leaders to reduce time-to-insight for regional performance reviews by 30%.</li>
         </ul>
     </div>
-
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-slate-900 rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
             <img src="{{ '/assets/images/starschema-logo.png' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
@@ -62,7 +60,6 @@ permalink: /cv/
             <li><strong>Workshop Facilitation:<strong> Educated non-technical stakeholders through targeted workshops, improving data understanding and reporting quality.</li>
         </ul>
     </div>
-
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
             <img src="{{ '/assets/images/intrum-logo.png' | relative_url }}" alt="Intrum" class="max-w-full max-h-full object-contain">
@@ -78,7 +75,6 @@ permalink: /cv/
             <li><strong>Infrastructure Growth:<strong> Contributed to the architecture of a centralized analytics infrastructure for faster regional data access.</li>
         </ul>
     </div>
-
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
             <img src="{{ '/assets/images/raiffeisen-logo.png' | relative_url }}" alt="Raiffeisen" class="max-w-full max-h-full object-contain">
@@ -95,7 +91,6 @@ permalink: /cv/
 </section>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 pt-10 border-t border-slate-800">
-    
     <section>
         <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-6">Technical Skills</h2>
         <div class="space-y-4">
@@ -117,7 +112,6 @@ permalink: /cv/
             </div>
         </div>
     </section>
-
     <section class="space-y-8">
         <div>
             <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-4">Education</h2>
@@ -133,3 +127,4 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
