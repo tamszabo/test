@@ -81,7 +81,7 @@ permalink: /cv/
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-8">Professional Experience</h2>
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
-            <img src="{{ '/assets/logos/hyundai-white-logo.png' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/hyundai-logo.png' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
             <h3 class="text-lg font-bold text-white">Hyundai Motor Europe</h3>
@@ -178,6 +178,7 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
 
 
