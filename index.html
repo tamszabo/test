@@ -129,50 +129,41 @@ title: Home
         <p class="text-slate-400">Trusted by global leaders and industry giants.</p>
     </div>
 
-    <div class="relative flex overflow-x-hidden">
-        <div class="py-12 animate-marquee whitespace-nowrap flex items-center gap-16 md:gap-24">
-            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-        </div>
-
-        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center gap-16 md:gap-24">
-            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
-            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+    <div class="flex overflow-hidden group">
+        <div class="flex items-center gap-16 md:gap-32 animate-scroll-left py-4 px-8 whitespace-nowrap">
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto object-contain">
+            
+            <img src="{{ '/assets/logos/apple-logo-white.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/blackrock-logo-white.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-10 md:h-12 w-auto object-contain">
+            
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/apple-logo-white.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto object-contain">
+            <img src="{{ '/assets/logos/blackrock-logo-white.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto object-contain">
         </div>
     </div>
 </section>
 
 <style>
-    @keyframes marquee {
-        0% { transform: translateX(0%); }
-        100% { transform: translateX(-100%); }
+    @keyframes scroll-left {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); } /* Scrolls exactly half the width of the doubled set */
     }
 
-    @keyframes marquee2 {
-        0% { transform: translateX(100%); }
-        100% { transform: translateX(0%); }
+    .animate-scroll-left {
+        display: flex;
+        width: max-content;
+        animation: scroll-left 40s linear infinite;
     }
 
-    .animate-marquee {
-        animation: marquee 30s linear infinite;
-    }
-
-    .animate-marquee2 {
-        animation: marquee2 30s linear infinite;
-    }
-    
-    /* Optional: Pause on hover so people can see the logos clearly */
-    .animate-marquee:hover, .animate-marquee2:hover {
+    /* Pause on hover */
+    .group:hover .animate-scroll-left {
         animation-play-state: paused;
     }
 </style>
