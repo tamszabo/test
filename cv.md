@@ -80,22 +80,6 @@ permalink: /cv/
 <section class="space-y-12">
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-8">Professional Experience</h2>
 
-    <!-- Independent Consulting -->
-    <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-12 h-12 bg-slate-800 rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
-            <span class="text-indigo-400 text-lg font-black">TS</span>
-        </div>
-        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-lg font-bold text-white">Independent Analytics Consulting</h3>
-            <span class="text-sm font-mono text-slate-500">08/2025 — Present</span>
-        </div>
-        <p class="text-indigo-400 text-sm font-semibold mb-3 italic">Freelance Data Analyst & BI Consultant | Frankfurt am Main, Germany</p>
-        <ul class="list-disc list-outside ml-4 space-y-2 text-slate-400 text-sm">
-            <li><strong>Analytics Projects:</strong> Delivering end-to-end BI and data visualization engagements for clients, with a focus on executive-ready dashboards and KPI frameworks.</li>
-            <li><strong>Content & Community:</strong> Building <a href="https://www.youtube.com/@clutchstats" class="text-indigo-400 hover:text-indigo-300 transition">ClutchStats</a> — a data-driven sports analytics brand combining advanced statistics with high-quality Tableau visualizations for a global audience.</li>
-        </ul>
-    </div>
-
     <!-- Hyundai -->
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
@@ -202,3 +186,4 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
