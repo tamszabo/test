@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.url == "/" or page.url == "/index.html" %}
-        <title>Tamas Szabo | Data Analyst & Consultant</title>
-    {% else %}
-        <title>{{ page.title }} | Tamas Szabo</title>
-    {% endif %}
+    <meta name="theme-color" content="#0f172a">
 
-    <meta name="google-site-verification" content="lhRAxAPoSzHzh99RVNwgZEt2oztvmCpTPEDlKha41LY" />
-    
+    {% seo %}
+    <meta name="google-site-verification" content="lhRAxAPoSzHzh99RVNwgZEt2oztvmCpTPEDlKha41LY">
+
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <!-- Google Analytics — only loads after cookie consent (see GDPR banner below) -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', '{{ site.google_analytics }}');
+        function loadGA() {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics }}');
+        }
+        if (localStorage.getItem('cookie_consent') === 'accepted') { loadGA(); }
     </script>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <!-- Trimmed to 4 weights actually used -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <script>
         tailwind.config = {
@@ -43,12 +47,21 @@
     <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-6 h-16 flex justify-between items-center">
             <a href="{{ site.baseurl }}/" class="font-black text-xl tracking-tighter text-white uppercase">
-                TAMAS<span class="text-indigo-500"></span>
+                TAMAS
             </a>
             <div class="flex items-center gap-6 text-sm font-medium">
-                <a href="{{ site.baseurl }}/" class="hover:text-white transition">Home</a>
-                <a href="{{ site.baseurl }}/cv/" class="hover:text-white transition">CV</a>
-                <a href="{{ site.baseurl }}/blog/" class="hover:text-white transition">Blog</a>
+                <a href="{{ site.baseurl }}/"
+                   class="transition {% if page.url == '/' or page.url == '/index.html' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                    Home
+                </a>
+                <a href="{{ site.baseurl }}/cv/"
+                   class="transition {% if page.url contains '/cv' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                    CV
+                </a>
+                <a href="{{ site.baseurl }}/blog/"
+                   class="transition {% if page.url contains '/blog' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                    Blog
+                </a>
             </div>
         </div>
     </nav>
@@ -58,24 +71,62 @@
     </main>
 
     <footer class="border-t border-slate-800 py-12 mt-20 text-center text-slate-500 text-sm">
-        <div class="flex justify-center items-center gap-4 mb-4">
+        <!-- Footer nav -->
+        <div class="flex justify-center items-center gap-6 text-xs font-medium uppercase tracking-widest mb-6">
+            <a href="{{ site.baseurl }}/" class="hover:text-white transition">Home</a>
+            <span class="text-slate-700">·</span>
+            <a href="{{ site.baseurl }}/cv/" class="hover:text-white transition">CV</a>
+            <span class="text-slate-700">·</span>
+            <a href="{{ site.baseurl }}/blog/" class="hover:text-white transition">Blog</a>
+        </div>
+
+        <!-- CTA -->
+        <a href="/cdn-cgi/l/email-protection#4e3e3c213d3a2f390e29232f2722602d2123" class="inline-block mb-8 px-6 py-3 bg-indigo-500 text-white text-sm font-bold rounded-xl hover:bg-indigo-400 transition-all active:scale-95 shadow-lg shadow-indigo-500/20">
+            Let's Chat →
+        </a>
+
+        <!-- Legal + RSS -->
+        <div class="flex justify-center items-center gap-4">
             <p>&copy; 2026 Tamas Szabo</p>
             <span class="text-slate-700">•</span>
-            <a href="{{ '/feed.xml' | relative_url }}" class="flex items-center gap-1.5 hover:text-orange-400 transition-colors duration-300" title="Subscribe via RSS">
+            <a href="{{ '/feed.xml' | relative_url }}"
+               class="flex items-center gap-1.5 hover:text-orange-400 transition-colors duration-300"
+               title="Subscribe via RSS">
                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.831c10.555.062 19.108 8.605 19.17 19.171h4.83c-.062-13.218-10.782-23.931-24-24.002z"/></svg>
                 <span>RSS</span>
             </a>
         </div>
-        <p>Powered by <span class="text-slate-300">Jekyll</span>, <span class="text-slate-300">Tailwind</span> & <span class="text-indigo-400 font-semibold">Gemini</span></p>
     </footer>
 
-</body>
-</html>
+    <!-- GDPR Cookie Consent Banner -->
+    <div id="cookie-banner"
+         class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t border-slate-700 px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm"
+         style="display:none!important">
+        <p class="text-slate-400 text-center sm:text-left">
+            This site uses cookies for analytics. See my
+            <a href="{{ site.baseurl }}/privacy/" class="text-indigo-400 hover:underline">privacy policy</a>.
+        </p>
+        <div class="flex gap-3 flex-shrink-0">
+            <button onclick="handleConsent('declined')"
+                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-slate-400 border border-slate-700 rounded-lg hover:border-slate-500 transition">
+                Decline
+            </button>
+            <button onclick="handleConsent('accepted')"
+                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-white bg-indigo-500 rounded-lg hover:bg-indigo-400 transition">
+                Accept
+            </button>
+        </div>
+    </div>
 
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        (function() {
+            var consent = localStorage.getItem('cookie_consent');
+            if (!consent) {
+                var banner = document.getElementById('cookie-banner');
+                banner.style.removeProperty('display');
+            }
+        })();
 
-
-
-
-
-
-
+        function handleConsent(choice) {
+            localStorage.setItem('cookie_consent', choice);
+            document.getElementByI
