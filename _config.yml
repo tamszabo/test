@@ -1,15 +1,15 @@
 title: Tamas Szabo | Senior Data Analyst & BI Consultant
-description: "Senior Data Analyst | BI Consultant. Transforming complex data into premium, design-first insights."
-baseurl: "" 
+description: "Senior Data Analyst with 8+ years at Fortune 500 companies. Specialising in executive dashboards, KPI frameworks, and turning complex data into clear decisions."
+baseurl: ""
 url: "https://tamasszabo.org"
-google_analytics: "G-69T22XTBL3"
-author: "Tamas Szabo"
+lang: en
+timezone: Europe/Berlin
 
-# Navigation links for the header
-header_pages:
-  - index.md
-  - cv.md
-  - blog.md
+author:
+  name: "Tamas Szabo"
+  email: "prostaw@gmail.com"
+
+google_analytics: "G-69T22XTBL3"
 
 # Build settings
 plugins:
@@ -18,7 +18,14 @@ plugins:
   - jekyll-sitemap
 
 permalink: /blog/:title/
-future: true
+future: false
+
+# Markdown & syntax highlighting
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - Gemfile
