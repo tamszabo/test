@@ -71,10 +71,18 @@ image: /assets/images/clutchstats.png
     </div>
 
     <div class="space-y-4">
-        <h4 class="text-white font-bold text-center">Featured Deep Dive</h4>
-        <div class="aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mIoDbCBpBZI?si=Vh67rsw1KabvJ35B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+    <h4 class="text-white font-bold text-center">Featured Video</h4>
+    <div class="aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+        <iframe 
+            class="w-full h-full" 
+            src="https://www.youtube.com/embed/mIoDbCBpBZI?si=Vh67rsw1KabvJ35B" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
     </div>
+</div>
 
 </div>
