@@ -17,17 +17,17 @@ image: /assets/images/clutchstats.png
     <h2 class="text-3xl font-black text-white tracking-tight">The Reignition</h2>
     
     <p>
-        I had spent a decade away from the hardwood. The NBA I remembered consisted of black-and-white memories of a different era. But as <strong>The Last Dance</strong> unfolded, it wasn't just nostalgia that hit me; it was a sudden, violent appreciation for the <em>architecture of a dynasty</em>. 
+        I had spent a decade away from the hardwood. The NBA I remembered consisted of black-and-white memories of a different era. But as <strong>The Last Dance</strong> unfolded, it wasn't just nostalgia that hit me: it was a sudden, violent appreciation for the <em>architecture of a dynasty</em>. 
     </p>
 
     <p>
-        Watching Michael Jordan wasn't just watching a player; it was watching a masterclass in <strong>foundational precision</strong>. Every fadeaway, every defensive rotation, and every high-stakes decision was a variable in a much larger equation of winning.
+        Watching Michael Jordan wasn't just watching a player. It was watching a masterclass in <strong>foundational precision</strong>. Every fadeaway, every defensive rotation, and every high-stakes decision was a variable in a much larger equation of winning.
     </p>
 
     <div class="p-8 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-12">
         <h3 class="text-white font-bold text-xl mb-3">The Analytical Side Effect</h3>
         <p>
-            My love for the sport didn't just return; it evolved. I realized I couldn't truly know this modern NBA without understanding its foundations. I couldn't just watch the highlights—<strong>I had to see the blueprint.</strong>
+            My love for the sport didn't just return: it evolved. I realized I couldn't truly know this modern NBA without understanding its foundations. I couldn't just watch the highlights - <strong>I had to see the blueprint.</strong>
         </p>
     </div>
 
@@ -55,7 +55,7 @@ image: /assets/images/clutchstats.png
     <h2 class="text-3xl font-black text-white tracking-tight">An Ode to the Game</h2>
 
     <p>
-        This channel is my tribute to a sport that demands excellence. The NBA taught me that <strong>greatness is not an accident; it is a statistical inevitability of hard work and perfect execution.</strong>
+        This channel is my tribute to a sport that demands excellence. The NBA taught me that <strong>greatness is not an accident. It is a statistical inevitability of hard work and perfect execution.</strong>
     </p>
 
     <p>
@@ -64,7 +64,7 @@ image: /assets/images/clutchstats.png
 
     <div class="py-12 bg-indigo-600/10 rounded-3xl border border-indigo-500/20 text-center space-y-6">
         <h3 class="text-white font-bold text-2xl">Ready to see the data in motion?</h3>
-        <p class="text-slate-400 max-w-md mx-auto">Join over 10,000 subscribers who watch the numbers behind the NBA's greatest records.</p>
+        <p class="text-slate-400 max-w-md mx-auto">Join over 2,000 subscribers who watch the numbers behind the NBA's greatest records.</p>
         <a href="https://youtube.com/@clutchstats" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-black px-8 py-4 rounded-full transition-all uppercase tracking-widest text-sm">
             Visit ClutchStats on YouTube
         </a>
@@ -73,14 +73,7 @@ image: /assets/images/clutchstats.png
     <div class="space-y-4">
         <h4 class="text-white font-bold text-center">Featured Deep Dive</h4>
         <div class="aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
-            <iframe 
-                class="w-full h-full" 
-                src="https://www.youtube.com/channel/UCE-aeyygfp0NgSIXIDEY61A" 
-                title="ClutchStats Featured Video" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mIoDbCBpBZI?si=Vh67rsw1KabvJ35B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 
