@@ -112,8 +112,8 @@ function copyPaletteCode(e) {
 </script>
 
 <div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
-    <h3 class="text-white font-bold text-xl">That wraps up the Toolkit Series</h3>
-    <p class="text-slate-400 text-sm">Tableau Public → Figma → Coolors. Three tools, one premium workflow. Want to see it applied to a real project?</p>
+    <h3 class="text-white font-bold text-xl">The Toolkit Series continues</h3>
+    <p class="text-slate-400 text-sm">Tableau Public → Figma → Coolors — and more to come. The next post in the series is already in the works.</p>
     <a href="/blog/" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         See All Posts →
     </a>
