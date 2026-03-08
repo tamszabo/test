@@ -3,7 +3,7 @@ layout: post
 title: "The Analyst's Toolkit: Why Tableau Public is Your Ultimate Stage"
 date: 2026-02-25
 image: /assets/images/2-tableau-toolkit.png
-categories: [Career, DataViz, Data Analysis]
+categories: [Career, DataViz, Data Analysis, Toolkit, Tableau]
 description: "Tableau Public is more than a free tool — it's the most powerful career-building platform in the data world. Here's how I use it and how it changed my career."
 author: Tamas Szabo
 ---
