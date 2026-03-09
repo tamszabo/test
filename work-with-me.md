@@ -49,7 +49,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <p class="text-slate-400 leading-relaxed mb-6">
-                You have dashboards. People look at them. But do they <em>actually</em> drive decisions? I conduct a structured review of your existing BI environment — data model, report design, KPI logic, and stakeholder fit — and deliver a prioritised written report with concrete recommendations. No fluff, no slide decks with stock photos.
+                You have dashboards. People look at them. But do they <em>actually</em> drive decisions? I conduct a structured review of your existing BI environment — data model, report design, KPI logic, and stakeholder fit — and deliver a prioritised written report with concrete recommendations.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
@@ -107,16 +107,14 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
 
         <!-- Offer 3: Full Dashboard Build -->
         <div class="relative group p-8 bg-indigo-500/5 border border-indigo-500/30 rounded-3xl hover:border-indigo-400 transition-all duration-300">
-            <div class="absolute top-6 right-6">
-                <span class="px-3 py-1 bg-indigo-500 text-white text-xs font-black uppercase tracking-widest rounded-full">Most Popular</span>
-            </div>
             <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                 <div>
                     <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">03</span>
                     <h3 class="text-2xl font-black text-white mt-1">Executive Dashboard Build</h3>
                     <p class="text-slate-400 text-sm mt-1 italic">A production-ready BI product, built to your brief.</p>
                 </div>
-                <div class="flex-shrink-0 text-right">
+                <div class="flex-shrink-0 text-right flex flex-col items-end gap-1">
+                    <span class="px-3 py-1 bg-indigo-500 text-white text-xs font-black uppercase tracking-widest rounded-full">Most Popular</span>
                     <p class="text-2xl font-black text-white">€8,000 <span class="text-slate-500 font-normal text-base">– €12,000</span></p>
                     <p class="text-slate-500 text-xs font-mono">Fixed price · 4–6 weeks</p>
                 </div>
