@@ -317,11 +317,10 @@ Once your four calculated fields are ready:
 3. **Change the mark type to Square** — this gives each state an equal-sized filled tile
 4. **Drag `State Abbreviation` to Label** — centre-align it so it sits in the middle of each square
 5. **Drag your metric** (e.g. sales, jobs, whatever your data contains) **to Color**
-6. **Right-click the Row axis** and select **Reverse** — by default Tableau draws row 1 at the bottom, but we want it at the top so the map reads north-to-south correctly
 
 <div class="p-6 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-8">
-    <h4 class="text-white font-bold mb-2">💡 Pro Tip: Fix Axis Ranges</h4>
-    <p class="text-slate-400 text-sm">Right-click both axes and set <strong>Fixed</strong> ranges — Column from 0.5 to 11.5, Row from 0.5 to 8.5. This prevents Tableau from auto-scaling and leaving uneven whitespace around the edges, and ensures the grid looks tight on any dashboard size.</p>
+    <h4 class="text-white font-bold mb-2">💡 Pro Tip: Hide the Headers</h4>
+    <p class="text-slate-400 text-sm">Right-click the Column and Row axes and select <strong>Show Header</strong> to toggle them off. The numeric axis labels add nothing to the viz and hiding them gives you a much cleaner, more polished dashboard with no extra configuration needed.</p>
 </div>
 
 ---
