@@ -6,6 +6,10 @@
     <meta name="theme-color" content="#0f172a">
 
     {% seo %}
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    {% endif %}
     <meta name="google-site-verification" content="lhRAxAPoSzHzh99RVNwgZEt2oztvmCpTPEDlKha41LY">
 
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
@@ -135,5 +139,10 @@
 
         function handleConsent(choice) {
             localStorage.setItem('cookie_consent', choice);
-            document.getElementByI
+            document.getElementById('cookie-banner').style.display = 'none';
+            if (choice === 'accepted') { loadGA(); }
+        }
+    </script>
 
+</body>
+</html>
