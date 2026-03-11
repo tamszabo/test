@@ -4,64 +4,11 @@ title: Resume
 permalink: /cv/
 ---
 
-<style>
-@media print {
-    /* 1. Hide Web UI */
-    nav, footer, button {
-        display: none !important;
-    }
-
-    /* 2. Reset to Light Theme for Printing */
-    @page {
-        margin: 1.5cm; /* Standard professional margin */
-    }
-
-    body, html, main, .max-w-5xl {
-        background: white !important;
-        color: #1e293b !important; /* Slate-800 for maximum readability */
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100% !important;
-    }
-
-    /* 3. Adjust Typography for white paper */
-    h1, h2, h3 {
-        color: #0f172a !important; /* Darker Slate for headings */
-    }
-    
-    .text-indigo-500, .text-indigo-400 {
-        color: #4f46e5 !important; /* Solid Indigo-600 for contrast */
-    }
-
-    .text-slate-400, .text-slate-500 {
-        color: #475569 !important; /* Slate-600 for subtext */
-    }
-
-    /* 4. Ensure Logos look crisp */
-    .absolute.left-0 {
-        border: 1px solid #e2e8f0 !important;
-        background: white !important;
-    }
-
-    /* 5. Clean up the Layout */
-    .border-b {
-        border-bottom: 1px solid #e2e8f0 !important;
-    }
-
-    .relative {
-        page-break-inside: avoid !important;
-        margin-bottom: 2rem !important;
-    }
-}
-</style>
 
 <div class="flex justify-between items-center mb-10 pb-4 border-b border-slate-800">
     <h1 class="text-3xl font-black text-white uppercase tracking-tighter">
         Tamas <span class="text-indigo-500">Szabo</span>
     </h1>
-    <button onclick="window.print()" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition border border-slate-800 px-4 py-2 rounded-lg">
-        Print to PDF
-    </button>
     <a href="{{ '/assets/tamas-szabo-cv.pdf' | relative_url }}" download
        class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition border border-slate-800 px-4 py-2 rounded-lg">
         ↓ Download PDF
