@@ -32,8 +32,13 @@ permalink: /blog/
                     <span class="text-indigo-400 text-xs font-mono uppercase tracking-widest">
                         {{ post.date | date: "%B %d, %Y" }}
                     </span>
-                    <div class="md:hidden">
-                        <span class="text-white">→</span>
+                    <div class="flex items-center gap-3">
+                        {% assign words = post.content | number_of_words %}
+                        {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+                        <span class="text-slate-600 text-xs font-mono">{{ reading_time }} min read</span>
+                        <div class="md:hidden">
+                            <span class="text-white">→</span>
+                        </div>
                     </div>
                 </div>
                 
