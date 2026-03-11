@@ -223,6 +223,35 @@ title: Home
     </div>
 </section>
 
+<!-- Newsletter -->
+<section class="py-20 border-t border-slate-800">
+    <div class="max-w-2xl mx-auto text-center">
+        <p class="text-indigo-400 font-black text-xs uppercase tracking-[0.3em] mb-4">The Analyst's Edge</p>
+        <h2 class="text-4xl font-black text-white tracking-tight mb-4">
+            One technique.<br><span class="text-indigo-500">Every month.</span>
+        </h2>
+        <p class="text-slate-400 text-lg leading-relaxed mb-10">
+            A practical Tableau or DataViz technique, straight to your inbox. The kind of thing that saves you an hour on Monday morning.
+        </p>
+
+        <form action="https://buttondown.com/api/emails/embed-subscribe/tamasszabo"
+              method="post"
+              class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <input type="email"
+                   name="email"
+                   placeholder="your@email.com"
+                   required
+                   class="flex-1 px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm font-mono">
+            <button type="submit"
+                    class="px-6 py-3 bg-indigo-500 hover:bg-indigo-400 text-white font-black rounded-xl transition-all text-sm uppercase tracking-widest whitespace-nowrap shadow-lg shadow-indigo-500/20">
+                Subscribe →
+            </button>
+        </form>
+
+        <p class="text-slate-600 text-xs font-mono mt-4">No spam. Unsubscribe any time. Powered by <a href="https://buttondown.com/refer/tamasszabo" target="_blank" class="hover:text-slate-400 transition-colors">Buttondown</a>.</p>
+    </div>
+</section>
+
 <style>
     @keyframes scroll-left {
         0% { transform: translateX(0); }
