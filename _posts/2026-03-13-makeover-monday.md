@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Makeover Monday: The Weekly Habit That Sharpens Every Analyst"
-date: 2026-03-14
+date: 2026-03-13
 image: /assets/images/6-makeover-monday.png
 categories: [Career, DataViz, Data Analysis]
 description: "Makeover Monday is the best weekly practice habit in data visualization. Here's how I use it to stay sharp, build my portfolio, and think like a better analyst — one dataset at a time."
