@@ -128,20 +128,24 @@ layout: default
     <p class="text-slate-400 text-sm leading-relaxed mb-8 max-w-md mx-auto">
         One practical Tableau or DataViz technique per month.
     </p>
-    <form action="https://buttondown.com/api/emails/embed-subscribe/tamasszabo"
-          method="post"
-          class="flex flex-col sm:flex-row gap-3 max-w-sm mx-auto">
+    <div class="flex flex-col sm:flex-row gap-3 max-w-sm mx-auto">
         <input type="email"
-               name="email"
+               id="post-email"
                placeholder="your@email.com"
-               required
                class="flex-1 px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm font-mono">
-        <button type="submit"
+        <button onclick="subscribeSubstackPost()"
                 class="px-5 py-2.5 bg-indigo-500 hover:bg-indigo-400 text-white font-black rounded-xl transition-all text-sm uppercase tracking-widest whitespace-nowrap">
             Subscribe →
         </button>
-    </form>
+    </div>
     <p class="text-slate-600 text-xs font-mono mt-4">No spam. Unsubscribe any time.</p>
+    <script>
+    function subscribeSubstackPost() {
+        var email = document.getElementById('post-email').value;
+        if (!email) return;
+        window.open('https://szabotamas.substack.com/subscribe?email=' + encodeURIComponent(email), '_blank');
+    }
+    </script>
 </div>
 
 <!-- Comments -->
