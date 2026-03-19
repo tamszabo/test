@@ -41,20 +41,20 @@ What actually moved the needle was **deliberate repetition on real data** — an
 Here's what a typical week looks like for me:
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
-    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
-        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Monday</span>
+    <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
+        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Monday</span>
         <span class="text-white font-bold text-sm">Download the dataset</span>
-        <span class="text-slate-400 text-sm">Look at the original chart. Note what's working and — more importantly — what isn't. What story is it trying to tell? Is it succeeding?</span>
+        <span class="text-[#b0bfc0] text-sm">Look at the original chart. Note what's working and — more importantly — what isn't. What story is it trying to tell? Is it succeeding?</span>
     </div>
-    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
-        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Tuesday–Wednesday</span>
+    <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
+        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Tuesday–Wednesday</span>
         <span class="text-white font-bold text-sm">Build the redesign</span>
-        <span class="text-slate-400 text-sm">One to two hours maximum. The time constraint is intentional — it mirrors real corporate deadlines and forces you to make decisions instead of perfecting forever.</span>
+        <span class="text-[#b0bfc0] text-sm">One to two hours maximum. The time constraint is intentional — it mirrors real corporate deadlines and forces you to make decisions instead of perfecting forever.</span>
     </div>
-    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
-        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Thursday–Friday</span>
+    <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
+        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Thursday–Friday</span>
         <span class="text-white font-bold text-sm">Publish and review</span>
-        <span class="text-slate-400 text-sm">Post to Tableau Public. Then spend 20 minutes browsing other submissions. This is where the real learning happens — you'll see approaches you'd never have thought of.</span>
+        <span class="text-[#b0bfc0] text-sm">Post to Tableau Public. Then spend 20 minutes browsing other submissions. This is where the real learning happens — you'll see approaches you'd never have thought of.</span>
     </div>
 </div>
 
@@ -85,7 +85,7 @@ The original chart presented the data as a dense table with conditional formatti
 My redesign focused on making the market movement immediately legible — pulling the signal out of the noise so the viewer understands the story before they read a single number.
 
 <div class="not-prose my-10">
-    <div class="w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+    <div class="w-full rounded-2xl overflow-hidden border border-[#3c6e71] shadow-2xl">
         <div class='tableauPlaceholder' id='viz1773385905398' style='position: relative; width: 100%;'>
             <noscript>
                 <a href='#'>
@@ -118,7 +118,7 @@ My redesign focused on making the market movement immediately legible — pullin
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
     </div>
-    <p class="text-slate-500 text-xs text-center mt-3 font-mono">Interactive — hover over any element to explore the data. <a href="https://public.tableau.com/app/profile/tamasszabo/viz/FinancialMarkets_17280507711200/FinancialMarkets" target="_blank" class="text-indigo-400 hover:underline">Open full screen on Tableau Public →</a></p>
+    <p class="text-[#8a9a9b] text-xs text-center mt-3 font-mono">Interactive — hover over any element to explore the data. <a href="https://public.tableau.com/app/profile/tamasszabo/viz/FinancialMarkets_17280507711200/FinancialMarkets" target="_blank" class="text-[#4a8e91] hover:underline">Open full screen on Tableau Public →</a></p>
 </div>
 
 ---
@@ -134,9 +134,9 @@ If you've never participated before, the barrier is lower than you think:
 
 That's the entire process. 
 
-<div class="p-6 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-8">
+<div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 One rule I follow</h4>
-    <p class="text-slate-400 text-sm">I never look at other people's submissions <em>before</em> I build mine. The moment you see someone else's elegant solution, your brain stops exploring and starts copying. Protect your creative process — publish first, browse second.</p>
+    <p class="text-[#b0bfc0] text-sm">I never look at other people's submissions <em>before</em> I build mine. The moment you see someone else's elegant solution, your brain stops exploring and starts copying. Protect your creative process — publish first, browse second.</p>
 </div>
 
 ---
@@ -149,10 +149,10 @@ Skill in data visualization is not built by reading about it. It's built by doin
 
 That gap closes faster than you'd expect. But only if you show up every week.
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">The Toolkit Series continues</h3>
-    <p class="text-slate-400 text-sm">Tableau Public → Figma → Coolors → Makeover Monday — the full practice stack, one post at a time.</p>
-    <a href="/blog/" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm">Tableau Public → Figma → Coolors → Makeover Monday — the full practice stack, one post at a time.</p>
+    <a href="/blog/" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         See All Posts →
     </a>
 </div>
@@ -160,23 +160,23 @@ That gap closes faster than you'd expect. But only if you show up every week.
 <div class="not-prose mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
 
 <!-- Community CTA -->
-<div class="p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl space-y-4">
-    <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">Join the Challenge</p>
+<div class="p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl space-y-4">
+    <p class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Join the Challenge</p>
     <h3 class="text-white font-bold text-xl leading-snug">Try Makeover Monday yourself</h3>
-    <p class="text-slate-400 text-sm">Every Monday, a new dataset. Free, open to everyone, and genuinely the best Tableau practice you'll find.</p>
+    <p class="text-[#b0bfc0] text-sm">Every Monday, a new dataset. Free, open to everyone, and genuinely the best Tableau practice you'll find.</p>
     <a href="https://www.makeovermonday.co.uk/" target="_blank"
-       class="inline-block border border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+       class="inline-block border border-[#3c6e71] text-[#4a8e91] hover:bg-[#3c6e71] hover:text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         makeovermonday.co.uk →
     </a>
 </div>
 
 <!-- Tableau profile CTA -->
-<div class="p-8 bg-indigo-500/10 border border-indigo-500/40 rounded-3xl space-y-4">
-    <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">My Work</p>
+<div class="p-8 bg-[#3c6e71]/10 border border-[#3c6e71]/40 rounded-3xl space-y-4">
+    <p class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">My Work</p>
     <h3 class="text-white font-bold text-xl leading-snug">See the full archive</h3>
-    <p class="text-slate-400 text-sm">Every Makeover Monday viz I've published — plus executive dashboards, sport analytics, and more on Tableau Public.</p>
+    <p class="text-[#b0bfc0] text-sm">Every Makeover Monday viz I've published — plus executive dashboards, sport analytics, and more on Tableau Public.</p>
     <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank"
-       class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+       class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         View Tableau Profile →
     </a>
 </div>
