@@ -40,13 +40,13 @@ You need four calculations. Create each one in Tableau via **Analysis > Create C
 
 This is your anchor field. If your data source already has a `State` field with full state names, you can use that directly. If not, create this mapping from whatever identifier you have (abbreviation, FIPS code, etc.). The key requirement is that the names match exactly across all four calculations.
 
-<details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 my-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+<details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 my-6">
+<summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
     <span>▶ State Name — Full CASE WHEN</span>
-    <button id="copy-name-btn" onclick="copyCode('nameCode', 'copy-name-btn', event)" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg transition-all">Copy Code</button>
+    <button id="copy-name-btn" onclick="copyCode('nameCode', 'copy-name-btn', event)" class="text-xs bg-[#3c6e71]/20 hover:bg-[#3c6e71]/40 text-[#6aacaf] px-3 py-1 rounded-lg transition-all">Copy Code</button>
 </summary>
 <div class="mt-4 overflow-x-auto">
-<pre id="nameCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">CASE [State ABR]
+<pre id="nameCode" class="text-sm text-[#d9d9d9] font-mono leading-relaxed bg-[#252525] p-4 rounded-lg border border-[#3c6e71]/50">CASE [State ABR]
 WHEN 'AK' THEN 'Alaska'
 WHEN 'AL' THEN 'Alabama'
 WHEN 'AR' THEN 'Arkansas'
@@ -108,13 +108,13 @@ END</pre>
 
 Used as the label inside each tile. Two-letter abbreviations keep tiles readable at any size.
 
-<details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 my-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+<details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 my-6">
+<summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
     <span>▶ State Abbreviation — Full CASE WHEN</span>
-    <button id="copy-abbr-btn" onclick="copyCode('abbrCode', 'copy-abbr-btn', event)" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg transition-all">Copy Code</button>
+    <button id="copy-abbr-btn" onclick="copyCode('abbrCode', 'copy-abbr-btn', event)" class="text-xs bg-[#3c6e71]/20 hover:bg-[#3c6e71]/40 text-[#6aacaf] px-3 py-1 rounded-lg transition-all">Copy Code</button>
 </summary>
 <div class="mt-4 overflow-x-auto">
-<pre id="abbrCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">CASE [State Name]
+<pre id="abbrCode" class="text-sm text-[#d9d9d9] font-mono leading-relaxed bg-[#252525] p-4 rounded-lg border border-[#3c6e71]/50">CASE [State Name]
 WHEN 'Alaska' THEN 'AK'
 WHEN 'Alabama' THEN 'AL'
 WHEN 'Arkansas' THEN 'AR'
@@ -176,13 +176,13 @@ END</pre>
 
 This places each state along the horizontal axis. The values range from 1 (far west) to 11 (far northeast), loosely mirroring real US geography.
 
-<details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 my-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+<details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 my-6">
+<summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
     <span>▶ Column — Full CASE WHEN</span>
-    <button id="copy-col-btn" onclick="copyCode('colCode', 'copy-col-btn', event)" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg transition-all">Copy Code</button>
+    <button id="copy-col-btn" onclick="copyCode('colCode', 'copy-col-btn', event)" class="text-xs bg-[#3c6e71]/20 hover:bg-[#3c6e71]/40 text-[#6aacaf] px-3 py-1 rounded-lg transition-all">Copy Code</button>
 </summary>
 <div class="mt-4 overflow-x-auto">
-<pre id="colCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">CASE [State Name]
+<pre id="colCode" class="text-sm text-[#d9d9d9] font-mono leading-relaxed bg-[#252525] p-4 rounded-lg border border-[#3c6e71]/50">CASE [State Name]
 WHEN 'Alaska' THEN 1
 WHEN 'Alabama' THEN 7
 WHEN 'Arkansas' THEN 5
@@ -244,13 +244,13 @@ END</pre>
 
 This places each state along the vertical axis. Row 1 is the top (Alaska, Maine), Row 8 is the bottom (Hawaii, Florida, Texas).
 
-<details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 my-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+<details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 my-6">
+<summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
     <span>▶ Row — Full CASE WHEN</span>
-    <button id="copy-row-btn" onclick="copyCode('rowCode', 'copy-row-btn', event)" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg border border-slate-700/50 transition-all">Copy Code</button>
+    <button id="copy-row-btn" onclick="copyCode('rowCode', 'copy-row-btn', event)" class="text-xs bg-[#3c6e71]/20 hover:bg-[#3c6e71]/40 text-[#6aacaf] px-3 py-1 rounded-lg border border-[#3c6e71]/50 transition-all">Copy Code</button>
 </summary>
 <div class="mt-4 overflow-x-auto">
-<pre id="rowCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">CASE [State Name]
+<pre id="rowCode" class="text-sm text-[#d9d9d9] font-mono leading-relaxed bg-[#252525] p-4 rounded-lg border border-[#3c6e71]/50">CASE [State Name]
 WHEN 'Alaska' THEN 1
 WHEN 'Alabama' THEN 7
 WHEN 'Arkansas' THEN 6
@@ -318,9 +318,9 @@ Once your four calculated fields are ready:
 4. **Drag `State Abbreviation` to Label** — centre-align it so it sits in the middle of each square
 5. **Drag your metric** (e.g. sales, jobs, whatever your data contains) **to Color**
 
-<div class="p-6 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-8">
+<div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 Pro Tip: Hide the Headers</h4>
-    <p class="text-slate-400 text-sm">Right-click the Column and Row axes and select <strong>Show Header</strong> to toggle them off. The numeric axis labels add nothing to the viz and hiding them gives you a much cleaner, more polished dashboard with no extra configuration needed.</p>
+    <p class="text-[#b0bfc0] text-sm">Right-click the Column and Row axes and select <strong>Show Header</strong> to toggle them off. The numeric axis labels add nothing to the viz and hiding them gives you a much cleaner, more polished dashboard with no extra configuration needed.</p>
 </div>
 
 ---
@@ -328,18 +328,18 @@ Once your four calculated fields are ready:
 ## 🎨 Step 3: Why This Layout Beats a Standard Map
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose">
-    <div class="p-6 bg-slate-800/40 border border-slate-700 rounded-2xl">
+    <div class="p-6 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
         <h4 class="text-red-400 font-bold text-sm uppercase tracking-widest mb-3">Standard Choropleth Map</h4>
-        <ul class="space-y-2 text-slate-400 text-sm">
+        <ul class="space-y-2 text-[#b0bfc0] text-sm">
             <li>❌ Alaska visually dominates (largest state by area)</li>
             <li>❌ Rhode Island near-invisible (0.4% of Alaska's size)</li>
             <li>❌ Color differences hard to spot on tiny states</li>
             <li>❌ Layout fixed — you can't reposition states</li>
         </ul>
     </div>
-    <div class="p-6 bg-slate-800/40 border border-indigo-500/30 rounded-2xl">
-        <h4 class="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-3">Tile Map</h4>
-        <ul class="space-y-2 text-slate-400 text-sm">
+    <div class="p-6 bg-[#2a2a2a]/40 border border-[#3c6e71]/30 rounded-2xl">
+        <h4 class="text-[#4a8e91] font-bold text-sm uppercase tracking-widest mb-3">Tile Map</h4>
+        <ul class="space-y-2 text-[#b0bfc0] text-sm">
             <li>✅ Every state gets identical visual weight</li>
             <li>✅ Rhode Island as readable as Texas</li>
             <li>✅ Color, shape, and size all fully customizable per tile</li>
@@ -357,7 +357,7 @@ The real power shows up in dense, data-heavy dashboards. When you need the viewe
 Here's a live example using this exact technique — US job demand data mapped across all 50 states with equal tile sizes:
 
 <div class="not-prose my-10">
-    <div class="aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+    <div class="aspect-video w-full rounded-2xl overflow-hidden border border-[#3c6e71] shadow-2xl">
         <iframe
             src="https://public.tableau.com/views/Themostin-demandjobsacrosstheU_S_/Themostin-demandjobsacrosstheU_S_?:language=en-US&:embed=y&:display_count=n&:origin=viz_share_link&:showVizHome=no"
             class="w-full h-full"
@@ -365,7 +365,7 @@ Here's a live example using this exact technique — US job demand data mapped a
             allowfullscreen>
         </iframe>
     </div>
-    <p class="text-slate-500 text-xs text-center mt-3 font-mono">Interactive — hover over any state to see the data. <a href="https://public.tableau.com/app/profile/tamasszabo/viz/Themostin-demandjobsacrosstheU_S_/Themostin-demandjobsacrosstheU_S_" target="_blank" class="text-indigo-400 hover:underline">Open full screen on Tableau Public →</a></p>
+    <p class="text-[#8a9a9b] text-xs text-center mt-3 font-mono">Interactive — hover over any state to see the data. <a href="https://public.tableau.com/app/profile/tamasszabo/viz/Themostin-demandjobsacrosstheU_S_/Themostin-demandjobsacrosstheU_S_" target="_blank" class="text-[#4a8e91] hover:underline">Open full screen on Tableau Public →</a></p>
 </div>
 
 ---
@@ -376,10 +376,10 @@ The tile map isn't just a design preference — it's an analytical decision. Whe
 
 Saving the coordinates as calculated fields also means the grid travels with your workbook. Copy the four calculations into any new Tableau project and your tile map scaffold is ready in under a minute.
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Want to use this in your own workbook?</h3>
-    <p class="text-slate-400 text-sm max-w-md mx-auto">All four calculations are in the collapsible blocks above — copy them directly into any Tableau project. If you build something with this technique, I'd love to see it.</p>
-    <a href="mailto:prostaw@gmail.com" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">All four calculations are in the collapsible blocks above — copy them directly into any Tableau project. If you build something with this technique, I'd love to see it.</p>
+    <a href="mailto:prostaw@gmail.com" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Share Your Map →
     </a>
 </div>
@@ -392,10 +392,10 @@ function copyCode(elementId, btnId, e) {
         var btn = document.getElementById(btnId);
         var original = btn.innerText;
         btn.innerText = '✓ Copied!';
-        btn.classList.add('bg-indigo-500/40', 'text-white');
+        btn.classList.add('bg-[#3c6e71]/40', 'text-white');
         setTimeout(function() {
             btn.innerText = original;
-            btn.classList.remove('bg-indigo-500/40', 'text-white');
+            btn.classList.remove('bg-[#3c6e71]/40', 'text-white');
         }, 2000);
     });
 }
