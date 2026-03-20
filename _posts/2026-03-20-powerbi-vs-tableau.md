@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Power BI vs Tableau: An Honest Side-by-Side From Someone Who Uses Both"
-date: 2026-03-21
+date: 2026-03-20
 image: /assets/images/8-powerbi-vs-tableau.png
 categories: [Career, DataViz, Data Analysis]
 description: "I've spent 8+ years in Tableau and I'm learning Power BI. Here's my honest take on where each tool wins, where it loses, and which one you should actually learn first."
