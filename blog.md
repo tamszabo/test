@@ -19,14 +19,6 @@ permalink: /blog/
         
         <div class="flex flex-col md:flex-row gap-8 items-start md:items-center">
             
-            {% if post.image %}
-            <div class="w-full md:w-64 h-24 flex-shrink-0 overflow-hidden rounded-2xl border border-[#3c6e71]">
-                <img src="{{ post.image | relative_url }}" 
-                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                     alt="{{ post.title }}">
-            </div>
-            {% endif %}
-
             <div class="flex-grow space-y-2">
                 <div class="flex justify-between items-start">
                     <span class="text-[#4a8e91] text-xs font-mono uppercase tracking-widest">
