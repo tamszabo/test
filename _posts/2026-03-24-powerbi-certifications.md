@@ -38,7 +38,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
             <div>
                 <span class="text-[#6aacaf] font-mono text-xs uppercase tracking-widest">Fundamentals</span>
                 <h3 class="text-xl font-black text-white mt-1">Microsoft Certified: Power Platform Fundamentals</h3>
-                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-900</p>
+                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/" target="_blank" class="text-[#4a8e91] hover:underline">PL-900 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$165</p>
@@ -70,7 +70,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
                     <span class="px-2 py-0.5 bg-[#3c6e71] text-white text-xs font-black uppercase rounded-full">My current target</span>
                 </div>
                 <h3 class="text-xl font-black text-white mt-1">Microsoft Certified: Power BI Data Analyst Associate</h3>
-                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-300</p>
+                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/" target="_blank" class="text-[#4a8e91] hover:underline">PL-300 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$165</p>
@@ -102,7 +102,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
                     <span class="px-2 py-0.5 bg-[#284b63] text-white text-xs font-black uppercase rounded-full">Next step after PL-300</span>
                 </div>
                 <h3 class="text-xl font-black text-white mt-1">Microsoft Certified: Power Platform Functional Consultant Associate</h3>
-                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-200</p>
+                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/power-platform-functional-consultant-associate/" target="_blank" class="text-[#4a8e91] hover:underline">PL-200 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$165</p>
@@ -131,7 +131,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
             <div>
                 <span class="text-[#6aacaf] font-mono text-xs uppercase tracking-widest">Associate</span>
                 <h3 class="text-xl font-black text-white mt-1">Microsoft Certified: Power Platform Developer Associate</h3>
-                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-400</p>
+                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/" target="_blank" class="text-[#4a8e91] hover:underline">PL-400 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$165</p>
@@ -160,7 +160,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
             <div>
                 <span class="text-[#6aacaf] font-mono text-xs uppercase tracking-widest">Expert</span>
                 <h3 class="text-xl font-black text-white mt-1">Microsoft Certified: Power Platform Solution Architect Expert</h3>
-                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-600</p>
+                <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/power-platform-solution-architect-expert/" target="_blank" class="text-[#4a8e91] hover:underline">PL-600 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$165</p>
