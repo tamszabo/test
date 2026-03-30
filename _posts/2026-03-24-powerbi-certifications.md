@@ -41,7 +41,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
                 <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: <a href="https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/" target="_blank" class="text-[#4a8e91] hover:underline">PL-900 →</a></p>
             </div>
             <div class="flex-shrink-0 text-right">
-                <p class="text-2xl font-black text-white">$165</p>
+                <p class="text-2xl font-black text-white">$99</p>
                 <p class="text-[#8a9a9b] text-xs font-mono">Renew annually · free</p>
             </div>
         </div>
