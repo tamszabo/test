@@ -234,16 +234,21 @@ title: Home
             A practical Tableau or DataViz technique, straight to your inbox. The kind of thing that saves you an hour on Monday morning.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <div id="subscribe-form" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input type="email"
                    id="hero-email"
                    placeholder="your@email.com"
                    class="flex-1 px-4 py-3 bg-[#2a2a2a] border border-[#3c6e71] rounded-xl text-white placeholder-[#8a9a9b] focus:outline-none focus:border-[#3c6e71] transition-colors text-sm font-mono">
             <button onclick="subscribeSubstack('hero-email')"
+                    id="subscribe-btn"
                     class="px-6 py-3 bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-black rounded-xl transition-all text-sm uppercase tracking-widest whitespace-nowrap shadow-lg shadow-[#3c6e71]/20">
                 Subscribe →
             </button>
         </div>
+
+        <p id="subscribe-confirm" class="hidden text-[#4a8e91] text-sm font-mono mt-4">
+            ✓ Opening Substack — complete your signup there.
+        </p>
 
         <p class="text-[#8a9a9b] text-xs font-mono mt-4">No spam. Unsubscribe any time. Powered by <a href="https://substack.com" target="_blank" class="hover:text-[#b0bfc0] transition-colors">Substack</a>.</p>
 
@@ -252,6 +257,13 @@ title: Home
             var email = document.getElementById(inputId).value;
             if (!email) return;
             window.open('https://szabotamas.substack.com/subscribe?email=' + encodeURIComponent(email), '_blank');
+            document.getElementById('subscribe-form').classList.add('hidden');
+            document.getElementById('subscribe-confirm').classList.remove('hidden');
+            setTimeout(function() {
+                document.getElementById('subscribe-form').classList.remove('hidden');
+                document.getElementById('subscribe-confirm').classList.add('hidden');
+                document.getElementById(inputId).value = '';
+            }, 5000);
         }
         </script>
     </div>
