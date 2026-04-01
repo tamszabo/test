@@ -184,13 +184,13 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
             <div>
                 <label for="name" class="block text-xs font-bold uppercase tracking-widest text-[#b0bfc0] mb-2">Your Name</label>
                 <input type="text" id="name" name="name" required
-                    class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#3c6e71] focus:outline-none rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
+                    class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
                     placeholder="Jane Smith">
             </div>
             <div>
                 <label for="email" class="block text-xs font-bold uppercase tracking-widest text-[#b0bfc0] mb-2">Work Email</label>
                 <input type="email" id="email" name="email" required
-                    class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#3c6e71] focus:outline-none rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
+                    class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
                     placeholder="jane@company.com">
             </div>
         </div>
@@ -198,14 +198,14 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
         <div>
             <label for="company" class="block text-xs font-bold uppercase tracking-widest text-[#b0bfc0] mb-2">Company</label>
             <input type="text" id="company" name="company"
-                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#3c6e71] focus:outline-none rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
+                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors"
                 placeholder="Acme GmbH">
         </div>
 
         <div>
             <label for="engagement" class="block text-xs font-bold uppercase tracking-widest text-[#b0bfc0] mb-2">Engagement of Interest</label>
             <select id="engagement" name="engagement"
-                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#3c6e71] focus:outline-none rounded-xl px-4 py-3 text-white text-sm transition-colors appearance-none">
+                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm transition-colors appearance-none">
                 <option value="" disabled selected class="text-[#8a9a9b]">Select an engagement...</option>
                 <option value="audit">Dashboard Audit — from €1,200</option>
                 <option value="kpi">KPI Framework Sprint — from €2,500</option>
@@ -217,7 +217,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
         <div>
             <label for="message" class="block text-xs font-bold uppercase tracking-widest text-[#b0bfc0] mb-2">Tell Me About Your Situation</label>
             <textarea id="message" name="message" rows="5" required
-                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#3c6e71] focus:outline-none rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors resize-none"
+                class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm placeholder-[#8a9a9b] transition-colors resize-none"
                 placeholder="What data challenges are you facing? What decisions are you trying to make faster or clearer?"></textarea>
         </div>
 
